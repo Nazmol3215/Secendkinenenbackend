@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 // Middleware
-app.use(cors({ origin: 'https://sekend-first-database.vercel.app' }));
+app.use(cors({ origin: 'https://kinenen-fcode.vercel.app' }));
 
 app.use(bodyParser.json());
 
